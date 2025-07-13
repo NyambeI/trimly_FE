@@ -39,7 +39,7 @@ export default function Home() {
             </div>
             <div className="w-full md:w-1/2 flex justify-center">
               <img
-                src="/assets/Promo_Image.png"
+                src="/src/Promo_Image.png"
                 alt="Trimly Stylists"
                 className="h-64 md:h-80 object-contain shadow-xl"
               />
