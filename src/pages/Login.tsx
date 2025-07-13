@@ -9,7 +9,6 @@ export default function Login() {
   const [password, setPassword] = useState('')
   const [errorMessage, setErrorMessage] = useState('')
 
-  // Handle form submission
   async function handleLogin(event: React.FormEvent<HTMLFormElement>) {
     event.preventDefault()
     let response = await UsersAPI.login(email, password)
