@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import NavBar from '../components/NavBar'
 import { UsersAPI } from '../APIs/UsersAPI'
 
-export default function Login() {
+export default function SignIn() {
   // State management
   const [email, setEmail] = useState('')
   const [password, setPassword] = useState('')

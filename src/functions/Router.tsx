@@ -1,7 +1,6 @@
 import React from 'react'
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom'
 import Home from '../pages/Home'
-import Login from '../pages/Login'
 import Search from '../pages/Search'
 import Signup from '../pages/Signup'
 import { ProtectedRoute } from '../components/ProtectedRoute'
@@ -15,6 +14,8 @@ import { Stylist_Profile } from '../pages/Stylist_Profile'
 import Appointments from '../pages/Appointments'
 import { Reviews } from '../pages/Reviews'
 import { ToastContainer } from 'react-toastify'
+import login from '../pages/SignIn'
+import SignIn from '../pages/SignIn'
 
 const GetHomePageByRole = () => {
   const Role = TokenManager.getClaims(TokenManager.getAccessToken() as string)
@@ -45,7 +46,7 @@ const AppRoutes = () => {
               )
             }
           />
-          <Route path="/login" element={<Login />} />
+          <Route path="/login" element={<SignIn/>} />
           <Route path="/search" element={<Search />} />
           <Route path="/stylists/:displayName" element={<Stylist_Profile />} />
           <Route path="/join" element={<Signup role="STYLIST" />} />
