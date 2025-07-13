@@ -2,6 +2,8 @@ import { Link } from 'react-router-dom'
 import Search from '../components/SearchBar'
 import { ArrowRight } from 'lucide-react'
 import NavBar from '../components/NavBar'
+import promoImage from '../images/promo_image.png'
+
 
 export default function Home() {
   return (
@@ -39,7 +41,7 @@ export default function Home() {
             </div>
             <div className="w-full md:w-1/2 flex justify-center">
               <img
-                src="/assets/promo_image.png"
+                src={promoImage}
                 alt="Trimly Stylists"
                 className="h-64 md:h-80 object-contain shadow-xl"
               />
@@ -53,8 +55,8 @@ export default function Home() {
           <div>
             <h2 className="text-xl font-bold mb-4">Are You a Stylist?</h2>
             <p className="text-base mb-8 max-w-2xl mx-auto">
-              Grow your career with Trimly. Get
-              access to new clients, booking management tools, and more.
+              Grow your career with Trimly. Get access to new clients, booking
+              management tools, and more.
             </p>
           </div>
           <Link
