@@ -45,7 +45,7 @@ const AppRoutes = () => {
               )
             }
           />
-          <Route path="/login" element={<Loginn />} />
+          <Route path="/Login" element={<Loginn />} />
           <Route path="/search" element={<Search />} />
           <Route path="/stylists/:displayName" element={<Stylist_Profile />} />
           <Route path="/join" element={<Signup role="STYLIST" />} />

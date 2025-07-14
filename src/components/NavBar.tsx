@@ -14,7 +14,7 @@ const NavBar = ({ title }: { title: string }) => {
         </a>
         <div className="space-x-3">
           <a
-            href="/login"
+            href="/Login"
             className="border border-white text-white px-4 py-2 rounded-lg hover:bg-white hover:text-gray-900 transition duration-300"
           >
             Login
