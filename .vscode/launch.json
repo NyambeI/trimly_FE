@@ -8,7 +8,7 @@
             "type": "chrome",
             "request": "launch",
             "name": "Launch Chrome against localhost",
-            "url": "https://trimly-six.vercel.app/",
+            "url": "http://localhost:5173",
             "webRoot": "${workspaceFolder}"
         }
     ]
