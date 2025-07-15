@@ -13,8 +13,7 @@ import { Stylist_Profile } from '../pages/Stylist_Profile'
 import Appointments from '../pages/Appointments'
 import { Reviews } from '../pages/Reviews'
 import { ToastContainer } from 'react-toastify'
-import SignIn from '../pages/Login'
-import Loginn from '../pages/Loginn'
+import Login from '../pages/Login'
 
 const GetHomePageByRole = () => {
   const Role = TokenManager.getClaims(TokenManager.getAccessToken() as string)
@@ -45,7 +44,7 @@ const AppRoutes = () => {
               )
             }
           />
-          <Route path="/Login" element={<Loginn />} />
+          <Route path="/Login" element={<Login />} />
           <Route path="/search" element={<Search />} />
           <Route path="/stylists/:displayName" element={<Stylist_Profile />} />
           <Route path="/join" element={<Signup role="STYLIST" />} />
