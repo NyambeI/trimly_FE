@@ -17,11 +17,9 @@ export default function Login() {
   return ( 
     <div className="w-screen h-screen flex flex-col items-center justify-evenly">
       <NavBar title="Login" />
-      <div className="w-full max-w-sm p-4 bg-white border border-gray-200 rounded-lg shadow-sm sm:p-6 md:p-8 dark:bg-gray-800 dark:border-gray-700">
+      <div className="w-full p-5 bg-white border border-gray-200 rounded-lg shadow-sm sm:p-6 md:p-8">
         <form className="space-y-6" onSubmit={handleLogin}>
-          <h5 className="text-xl font-medium text-gray-900 dark:text-white">
-            Sign in to Trimly
-          </h5>
+          
           <div>
             <label className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">
               Your email

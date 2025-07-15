@@ -30,7 +30,7 @@ export default function Signup({ role }: Props) {
   return (
     <div className="w-screen h-screen flex flex-col items-center justify-evenly">
       <NavBar title="Register" />
-      <div className="mt-18 flex items-center p-5 justify-center ">
+      <div className="mt-20 flex items-center p-5 justify-center ">
         <form className="w-full max-w-md space-y-8" onSubmit={createAccount}>
           <div className="border-b border-gray-300 pb-6">
             <h2 className="text-lg font-semibold">Personal Information</h2>
