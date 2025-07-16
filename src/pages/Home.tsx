@@ -6,10 +6,26 @@ import { TokenManager } from '../functions/Tokens'
 import { Claims } from '../Interfaces'
 
 const categories = [
-  { image: 'src/images/Styles/Braids.png', title: 'Haircuts' },
-  { image: 'src/images/Styles/HairDye.png', title: 'Colouring' },
-  { image: 'src/images/Styles/SilkPress.png', title: 'Styling & Treatment' },
-  { image: 'src/images/Styles/Beard.png', title: 'Beard Trimming' }
+  {
+    image:
+      'https://res-console.cloudinary.com/dny97rofq/thumbnails/v1/image/upload/v1752587318/QnJhaWRzX3g4cXR5Mg==/drilldown',
+    title: 'Haircuts'
+  },
+  {
+    image:
+      'https://res-console.cloudinary.com/dny97rofq/thumbnails/v1/image/upload/v1752587380/SGFpckR5ZV9rdXJ0ZHQ=/drilldown',
+    title: 'Colouring'
+  },
+  {
+    image:
+      'https://res-console.cloudinary.com/dny97rofq/thumbnails/v1/image/upload/v1752587392/U2lsa1ByZXNzX2Uyb3Z4dQ==/drilldown',
+    title: 'Styling & Treatment'
+  },
+  {
+    image:
+      'https://res-console.cloudinary.com/dny97rofq/thumbnails/v1/image/upload/v1752587126/QmVhcmRfeXdrMWpl/drilldown',
+    title: 'Beard Trimming'
+  }
 ]
 
 export default function Home() {
@@ -21,8 +37,8 @@ export default function Home() {
     navigate(`/search?${params.toString()}`)
   }
   const claims = TokenManager.getClaims(
-      TokenManager.getAccessToken() as string
-    ) as Claims
+    TokenManager.getAccessToken() as string
+  ) as Claims
 
   return (
     <div className="flex flex-col h-full py-10 ">
