@@ -8,22 +8,22 @@ import { Claims } from '../Interfaces'
 const categories = [
   {
     image:
-      'https://res-console.cloudinary.com/dny97rofq/thumbnails/v1/image/upload/v1752587318/QnJhaWRzX3g4cXR5Mg==/drilldown',
+      'https://res.cloudinary.com/dny97rofq/image/upload/v1752587318/Braids_x8qty2.png',
     title: 'Haircuts'
   },
   {
     image:
-      'https://res-console.cloudinary.com/dny97rofq/thumbnails/v1/image/upload/v1752587380/SGFpckR5ZV9rdXJ0ZHQ=/drilldown',
+      'https://res.cloudinary.com/dny97rofq/image/upload/v1752587380/HairDye_kurtdt.png',
     title: 'Colouring'
   },
   {
     image:
-      'https://res-console.cloudinary.com/dny97rofq/thumbnails/v1/image/upload/v1752587392/U2lsa1ByZXNzX2Uyb3Z4dQ==/drilldown',
+      'https://res.cloudinary.com/dny97rofq/image/upload/v1752587392/SilkPress_e2ovxu.png',
     title: 'Styling & Treatment'
   },
   {
     image:
-      'https://res-console.cloudinary.com/dny97rofq/thumbnails/v1/image/upload/v1752587126/QmVhcmRfeXdrMWpl/drilldown',
+      'https://res.cloudinary.com/dny97rofq/image/upload/v1752587126/Beard_ywk1je.png',
     title: 'Beard Trimming'
   }
 ]
